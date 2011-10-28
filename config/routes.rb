@@ -1,4 +1,8 @@
 Askjeeves::Application.routes.draw do
+  get "content/index"
+
+  match 'ping' => 'jeeves#ping'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

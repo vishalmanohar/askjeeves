@@ -106,6 +106,7 @@ GEM
       multi_json (>= 1.0.2)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
